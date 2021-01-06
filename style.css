@@ -1,0 +1,119 @@
+* {
+    color: white;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    margin: auto;
+    width: 60%;
+}
+
+#flex_all {
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+#start_info {
+}
+
+#cd_div {
+    text-align: left;
+    width: 10%;
+}
+
+#cd {
+    width: 10%;
+}
+
+#arrow_left {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+#red {
+    color: red;
+}
+
+#blue_field {
+    color: blue;
+    width: 40%;
+}
+
+#titulo {
+    font-size: 76px;
+    margin-left: 320px;
+}
+
+#titulo:hover {
+    margin-left: 400px;
+    transition: 0.5s ease-out;
+}
+
+#titulo:hover::after {
+    content:"urity.";
+    transition: 0.5s ease-out;
+}
+
+#underline {
+    font-size: 24px;
+    animation: opacity 1s linear infinite;
+}
+
+#texto_ini {
+    color: greenyellow;
+    text-align: center;
+    font-size: 24px;
+}
+
+#paragrafo {
+    color: green;
+    text-align: center;
+    font-size: 24px;
+}
+
+fieldset {
+    margin: auto;
+    text-align: center;
+    border-color: greenyellow;
+    border-width: 2px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#enviar {
+    margin: 20px ;
+    margin-top: 20px;
+    padding: 10px;
+    width: 160px;
+    height: 80px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+}
+
+#enviar:hover {
+    background-color:  rgb(27, 27, 27);
+}
+
+#enviar:active {
+    background-color:  rgb(59, 59, 59);
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes opacity {
+    0%,50% {
+        opacity: 0;
+    }
+    51%,100% {
+        opacity: 1;
+    }
+}

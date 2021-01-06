@@ -1,0 +1,229 @@
+* {
+    color: white;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    margin: auto;
+    width: 60%;
+}
+
+#flex_all {
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+#start_info {
+}
+
+#cd_div {
+    text-align: left;
+    width: 10%;
+}
+
+#cd {
+    width: 10%;
+}
+
+#arrow_left {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#blue_field {
+    color: blue;
+    width: 40%;
+}
+
+#titulo {
+    font-size: 76px;
+    margin-left: 320px;
+}
+
+#titulo:hover {
+    margin-left: 400px;
+    transition: 0.5s ease-out;
+}
+
+#titulo:hover::after {
+    content:"urity.";
+    transition: 0.5s ease-out;
+}
+
+#underline {
+    font-size: 24px;
+    animation: opacity 1s linear infinite;
+}
+
+input, select, option, textarea, button {
+    border-radius: 15px;
+}
+
+label {
+    font-size: 21px;
+}
+
+input {
+    color: black;
+    font-size: 20px;
+}
+
+textarea {
+    color: black;
+    font-size: 16px;
+}
+
+#nomes {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#primeiras_infos {
+    display: inline;
+    text-align: center;
+    flex: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+#linha {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    border: 2px dashed greenyellow;
+    border-radius: 5px;
+    animation: opacity2 2s linear infinite;
+}
+
+fieldset {
+    margin: auto;
+    text-align: center;
+    border-color: greenyellow;
+    border-width: 2px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+option, select {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 20x;
+}
+
+option {
+    color: white;
+    font-size: 20x;
+}
+
+#protecao_info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#protecao_itens {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#protecao input{
+    display: block;
+    margin-left: 5em;
+}
+
+#carreira_info {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#tecnologias_info {
+    text-align: center;
+}
+
+#tecnos_info {
+    width: 100%;
+}
+
+#tecno1, #tecno2, #tecno3, #tecno4, #tecno5, #tecno6 {
+    font-size: 142px;
+}
+
+#jornada {
+    width: 26em;
+}
+
+#jornada_info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#jornada_info label{
+    display: block;
+}
+
+#enviar, #cd {
+    margin-top: 20px;
+    padding: 8px;
+    width: 100px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    border: 0;
+}
+
+#enviar:hover, #cd:hover {
+    background-color:  rgb(27, 27, 27);
+}
+
+#enviar:active, #cd:active {
+    background-color:  rgb(59, 59, 59);
+}
+
+#enviar {
+    width: 140px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes opacity {
+    0%,50% {
+        opacity: 0;
+    }
+    51%,100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacity2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

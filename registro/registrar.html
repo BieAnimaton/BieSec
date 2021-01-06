@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <title>Registro</title>
+</head>
+<body>
+    <div id="flex_all">
+        <div id="start_info">
+            <div id="cd_div">
+                <a href="file:///C:/Users/gcbra/OneDrive/Desktop/Importantes/Programação/BieSec/index.html"><button id="cd"><span id=red> <span id="arrow_left"><i class="fas fa-arrow-left"></i></span> </span></button></a>
+            </div>
+
+            <h1 id="titulo"><span id=blue_field>&gt;</span>BieSec</h1>
+        </div>
+    
+        <div id="inicio">
+            <h2><span id=red>[root@kali]</span>:~#<span id=underline>_</span></h2>
+        </div>
+    
+        <form action="">
+            <fieldset id="field_main">
+                <div id="primeiras_infos">
+                    <div>
+                        <label for="name"><span id=blue>#</span>Nome:</label>
+                        <input type="text" name="name" id="name">
+
+                        <label for="sobrenome"><span id=blue>#</span>Sobrenome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </div>
+        
+                    <div>
+                        <label for="nickname"><span id=blue>#</span>Nickname:</label>
+                        <input type="text" name="nickname" id="nickname">
+
+                        <label for="email"><span id=blue>#</span>Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+                <hr id="linha">
+                <div id="protecao_info">
+                    <label><span id=blue>#</span> De qual lado você oferece proteção?</label>
+                    <div id="protecao_itens">
+                        <label>
+                            <input type="radio" name="protection" value="servidor"> Servidor
+                        </label>
+            
+                        <label>
+                            <input type="radio" name="protection" value="cliente" checked> Cliente
+                        </label>
+            
+                        <label>
+                            <input type="radio" name="protection" value="rede"> Rede
+                        </label>
+            
+                        <label>
+                            <input type="radio" name="protection" value="fisico"> Partes Físicas
+                        </label>
+                    </div>
+                </div>
+                <div id="carreira_info">
+                    <label><span id=blue>#</span>Nível da Carreira</label>
+                    <select name="carrer" id="carrer">
+                        <option selected desabled></option>
+                        <option>Estagiário</option>
+                        <option>Junior</option>
+                        <option>Pleno</option>
+                        <option>Senior</option>
+                    </select>
+                </div>
+                <hr id="linha">
+                <div id="tecnologias_info">
+                    <div id="tecnos_info">
+                        <label><span id=blue>#</span> Selecione as tecnologias que utiliza: </label><br><br>
+                        <label>
+                            <input type="checkbox" name="tecno1" id="tecno1"> Python
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tecno2" id="tecno2"> JavaScript
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tecno3" id="tecno3"> Java
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tecno4" id="tecno4"> Ruby
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tecno5" id="tecno5"> Perl
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tecno6" id="tecno6"> C#
+                        </label>
+                    </div>
+                </div>
+                <hr id="linha">
+                <div id="jornada_info">
+                    <br>
+                    <label><span id=blue>#</span>Conte um pouco da sua jornada hacker pela internet</label>
+                    <textarea name="jornada" id="jornada" rows="6"></textarea>
+                </div>
+        
+                <button id="enviar" type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
